@@ -16,7 +16,7 @@ struct WeatherButton: View {
     var body: some View {
         Text("Change Day Time")
             .frame(width: 280, height: 50)
-            .background(backgroundColor)
+            .background(backgroundColor.gradient)
             .foregroundStyle(textColor)
             .font(.system(size: 20, weight: .bold))
             .cornerRadius(10)
